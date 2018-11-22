@@ -11,6 +11,7 @@ mui-create是一款配合react-mobile-ui的脚手架， 功能及实现都比较
 │   └── index.md
 ```
 ### Button.jsx
+
 ```js
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -43,6 +44,7 @@ export default Button;
 
 ### index.md
 
+
 ```js
   ## Radio
 
@@ -50,7 +52,6 @@ export default Button;
 
 ## code
 
-```js
 // app.js
 
 import React from 'react';
@@ -71,8 +72,6 @@ ReactDOM.render((
     <App/>
 ), document.getElementById('container'));
 
-```
-
 ## API
 
 属性 | 说明 | 类型 | 默认值
@@ -80,6 +79,7 @@ ReactDOM.render((
 | type    | 类型，可选值为`primary`/`normal`/`warning`/`defalut`  |   string| `normal`|
 
 ```
+
 详情请看[这里](https://github.com/shengKevin/react-mobile-ui)
 
 ## install 
